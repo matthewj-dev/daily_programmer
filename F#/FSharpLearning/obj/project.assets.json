@@ -112,11 +112,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/matthewjackson/Projects/Code Projects/daily_programmer/FSharp/FSharpLearning/FSharpLearning.fsproj",
+      "projectUniqueName": "/Users/matthewjackson/Projects/Code Projects/daily_programmer/F#/FSharpLearning/FSharpLearning.fsproj",
       "projectName": "FSharpLearning",
-      "projectPath": "/Users/matthewjackson/Projects/Code Projects/daily_programmer/FSharp/FSharpLearning/FSharpLearning.fsproj",
+      "projectPath": "/Users/matthewjackson/Projects/Code Projects/daily_programmer/F#/FSharpLearning/FSharpLearning.fsproj",
       "packagesPath": "/Users/matthewjackson/.nuget/packages/",
-      "outputPath": "/Users/matthewjackson/Projects/Code Projects/daily_programmer/FSharp/FSharpLearning/obj/",
+      "outputPath": "/Users/matthewjackson/Projects/Code Projects/daily_programmer/F#/FSharpLearning/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/matthewjackson/.nuget/NuGet/NuGet.Config"

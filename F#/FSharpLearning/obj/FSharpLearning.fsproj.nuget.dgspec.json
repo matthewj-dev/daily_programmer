@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/matthewjackson/Projects/Code Projects/daily_programmer/CSharp/CSharpLearning/CSharpLearning.csproj": {}
+    "/Users/matthewjackson/Projects/Code Projects/daily_programmer/F#/FSharpLearning/FSharpLearning.fsproj": {}
   },
   "projects": {
-    "/Users/matthewjackson/Projects/Code Projects/daily_programmer/CSharp/CSharpLearning/CSharpLearning.csproj": {
+    "/Users/matthewjackson/Projects/Code Projects/daily_programmer/F#/FSharpLearning/FSharpLearning.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/matthewjackson/Projects/Code Projects/daily_programmer/CSharp/CSharpLearning/CSharpLearning.csproj",
-        "projectName": "CSharpLearning",
-        "projectPath": "/Users/matthewjackson/Projects/Code Projects/daily_programmer/CSharp/CSharpLearning/CSharpLearning.csproj",
+        "projectUniqueName": "/Users/matthewjackson/Projects/Code Projects/daily_programmer/F#/FSharpLearning/FSharpLearning.fsproj",
+        "projectName": "FSharpLearning",
+        "projectPath": "/Users/matthewjackson/Projects/Code Projects/daily_programmer/F#/FSharpLearning/FSharpLearning.fsproj",
         "packagesPath": "/Users/matthewjackson/.nuget/packages/",
-        "outputPath": "/Users/matthewjackson/Projects/Code Projects/daily_programmer/CSharp/CSharpLearning/obj/",
+        "outputPath": "/Users/matthewjackson/Projects/Code Projects/daily_programmer/F#/FSharpLearning/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/matthewjackson/.nuget/NuGet/NuGet.Config"
@@ -20,6 +20,7 @@
           "net7.0"
         ],
         "sources": {
+          "/opt/homebrew/Cellar/dotnet/7.0.100/libexec/sdk/7.0.100/FSharp/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -27,16 +28,19 @@
             "targetAlias": "net7.0",
             "projectReferences": {}
           }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
         }
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[7.0.0, )",
+              "generatePathProperty": true
+            }
+          },
           "imports": [
             "net461",
             "net462",

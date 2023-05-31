@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "6qVib2ue+2Dz6j7BWuSw/95+XdOC6HjRrefbxC8ZsZTUTi/DUxcAgYPpzbPzKbFzgx6c65I32CLZoXIPye2KoQ==",
+  "success": true,
+  "projectFilePath": "/Users/matthewjackson/Projects/Code Projects/daily_programmer/F#/FSharpLearning/FSharpLearning.fsproj",
+  "expectedPackageFiles": [
+    "/Users/matthewjackson/.nuget/packages/fsharp.core/7.0.0/fsharp.core.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
