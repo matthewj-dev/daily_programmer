@@ -1,8 +1,8 @@
-import kotlin.math.absoluteValue
+// do not remember where this problem was from, but it feels like LeetCode so I am putting it in this folder.
 
 class Solution0 {
     fun reverse(x: Int): Int {
-        var lst: MutableList<Char> = toList(x)
+        val lst: MutableList<Char> = toList(x)
         lst.reverse()
         return toNum(lst)
     }
@@ -33,11 +33,11 @@ class Solution0 {
 //listed solution
 internal class Solution1 {
     fun reverse(x: Int): Int {
-        var x = x
+        var x1 = x
         var rev = 0
-        while (x != 0) {
-            val pop = x % 10
-            x /= 10
+        while (x1 != 0) {
+            val pop = x1 % 10
+            x1 /= 10
             if (rev > Int.MAX_VALUE / 10 || rev == Int.MAX_VALUE / 10 && pop > 7) return 0
             if (rev < Int.MIN_VALUE / 10 || rev == Int.MIN_VALUE / 10 && pop < -8) return 0
             rev = rev * 10 + pop
